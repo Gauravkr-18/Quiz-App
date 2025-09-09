@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Question Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="quiz-container">
+      <h1>Simple Quiz</h1>
+      <div class="meta">
+        <div id="score">Score: 0</div>
+        <div id="progress">0 / 0</div>
+      </div>
+
+      <h2 id="question"></h2>
+
+      <div id="options-container" aria-live="polite"></div>
+
+      <p id="feedback" aria-live="polite"></p>
+
+      <div class="controls">
+        <button id="next-btn" disabled>Next</button>
+        <button id="restart-btn">Restart</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
