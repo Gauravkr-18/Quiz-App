@@ -2,7 +2,6 @@ let questions = [];
 let remainingIndexes = [];
 let currentIndex = null;
 let score = 0;
-
 const questionEl = document.getElementById("question");
 const optionsContainer = document.getElementById("options-container");
 const feedbackEl = document.getElementById("feedback");
@@ -110,3 +109,4 @@ document.addEventListener("keydown", (e) => {
     }
   }
 });
+
